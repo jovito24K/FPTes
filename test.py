@@ -37,7 +37,7 @@ system("cls")
 # cantidadEntrada=int(input("ingrese cuantas entradas desea comprar \n"))
 # valor=0
 # for i in range(cantidadEntrada):
-#     edad=int(input("ingre su edad\n"))
+#     edad=int(input("ingre su edad para comprar la entrada\n"))
 #     if edad <=12:
 #         print("su entrada es de $500")
 #         valor+=500
@@ -52,7 +52,7 @@ system("cls")
 #             else:
 #                 print("su entrada es de 700")
 #                 valor+=700
-# print(f"el total de su compra es {valor}")
+# print(f"el total de su compra es {valor} disfrute ")
 
 #EJERCICIO 7
 # total=25000
@@ -80,3 +80,90 @@ system("cls")
 #             print(f"su total a pagar es {total}")
 # else:
 #     print("gracias por la visita")
+
+
+# CICLO FOR
+# TABLAS DE MULTIPLICAR
+# for j in range(10):
+#     for i in range(10):
+#         print(j+1,"x", i+1,"=",(i+1)*(j+1))
+
+
+
+# for i in range(18):
+#     print(f"usted tiene {i+1} años ")
+    
+    
+
+
+# promedio=0
+# for i in range(3):
+#     num=int(input("ingrese los numero "))
+#     promedio=promedio+num
+# print ("su promedio es ", promedio/(i+1))
+
+
+
+# PAR INPAR
+# num=10
+# if num%2==0:
+#     print("el numero es par")
+# else:
+#     print("el numero es inpar")
+
+    
+# MOSTRAR LOS NUMEROS INPARES
+# num=int(input("ingrese un numero "))
+# for i in range(num+1):
+#     if i%2!=0:
+#         print("los numeros inpar son",i)
+
+
+# pal="hola"
+# print(len(pal))
+# for i in pal:
+#     print(i)
+
+# total=0
+# pal=input("ingrese su nombre\n")
+# print("la cantidad de letras es :",len(pal))
+# for i in range(len(pal)):
+#     print(i+1)
+#     total=total+(i)
+# print("la suma de la cantidad de letras es ",total+i+1)
+
+# LISTAS
+# contraCorrecta=11234
+# for i in range(3):
+#     contra=int(input("ingrese la contraseña"))
+#     if contra==contraCorrecta:
+#         print("la contraseña es correcta bienbenido")
+#         break
+#     else:
+#         print("incorrecto intente nuevamente")
+
+# num=12
+# for i in range(5):
+#     contra=int(input("adivina el numero del 1 al 100 \n"))
+#     if contra <num:
+#         print("ingrese un numero mas alto\n")
+#     if contra >num:
+#          print("ingrese un numero mas bajo\n")
+#     if contra == num:
+#         print("el numero es correcto")
+#         break
+
+
+
+# num=int(input("jugador uno ingrese un numero\n"))
+# intentos=int(input("cuantos intentos quieres para el jugador dos\n"))
+# system("cls")
+# for i in range(intentos):
+#     contra=int(input(" jugador dos adivina el numero del 1 al 100 \n"))
+#     if contra <num:
+#         print("ingrese un numero mas alto\n")
+#     if contra >num:
+#          print("ingrese un numero mas bajo\n")
+#     if contra == num:
+#         print("el numero es correcto")
+#         break
