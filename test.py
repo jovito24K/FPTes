@@ -81,29 +81,25 @@ system("cls")
 # else:
 #     print("gracias por la visita")
 
-
-# CICLO FOR
+# EJERCICIO 8
 # TABLAS DE MULTIPLICAR
 # for j in range(10):
 #     for i in range(10):
 #         print(j+1,"x", i+1,"=",(i+1)*(j+1))
 
-
+# EJERCICIO 9
 
 # for i in range(18):
 #     print(f"usted tiene {i+1} años ")
     
-    
-
-
+# EJERCICIO 10
 # promedio=0
 # for i in range(3):
 #     num=int(input("ingrese los numero "))
 #     promedio=promedio+num
 # print ("su promedio es ", promedio/(i+1))
 
-
-
+# EJERCICIO 11
 # PAR INPAR
 # num=10
 # if num%2==0:
@@ -111,19 +107,20 @@ system("cls")
 # else:
 #     print("el numero es inpar")
 
-    
+# EJERCICIO 12
 # MOSTRAR LOS NUMEROS INPARES
 # num=int(input("ingrese un numero "))
 # for i in range(num+1):
 #     if i%2!=0:
 #         print("los numeros inpar son",i)
 
-
+# EJERCICIO 13
 # pal="hola"
 # print(len(pal))
 # for i in pal:
 #     print(i)
 
+# EJERCICIO 14
 # total=0
 # pal=input("ingrese su nombre\n")
 # print("la cantidad de letras es :",len(pal))
@@ -132,6 +129,7 @@ system("cls")
 #     total=total+(i)
 # print("la suma de la cantidad de letras es ",total+i+1)
 
+# EJERCICIO 15
 # LISTAS
 # contraCorrecta=11234
 # for i in range(3):
@@ -142,6 +140,7 @@ system("cls")
 #     else:
 #         print("incorrecto intente nuevamente")
 
+# EJERCICIO 16
 # num=12
 # for i in range(5):
 #     contra=int(input("adivina el numero del 1 al 100 \n"))
@@ -153,8 +152,7 @@ system("cls")
 #         print("el numero es correcto")
 #         break
 
-
-
+# EJERCICIO 17
 # num=int(input("jugador uno ingrese un numero\n"))
 # intentos=int(input("cuantos intentos quieres para el jugador dos\n"))
 # system("cls")
@@ -167,3 +165,51 @@ system("cls")
 #     if contra == num:
 #         print("el numero es correcto")
 #         break
+
+
+# EJERCICIO 18
+
+# a = 0
+# b = 1
+# n = int(input("ingrese la cantidad de susesiones de fibonacci que deseas ver \n"))
+# fibonacci =[]
+# for i in range (n):
+#     fibonacci.append(a)
+#     a,b=b,a+b
+# print(fibonacci)
+
+# EJERCICIO 19
+
+
+# PAR INPAR
+
+# num=10
+# def par_inpar():
+#     if num%2==0:
+#         print("el numero es par")
+#     else:
+#         print("el numero es inpar")
+
+
+# comida= 100
+# print("el plato esta lleno ")
+# while comida != 0:
+#     comer= input("quieres comer? si/no\n")
+#     if comer == "si":
+#         comida=comida-25
+#     if comida==0:
+#         print("terminaste el plato")
+#         break
+#     else:
+#         print(f"aun queda {comida}% comida")
+# numC=1
+# numI=0
+# while numC==1:
+#     asu=int(input("ingrese un numero\n"))
+#     if asu==1:
+#         print("correcto")
+#         print(f"la suma de los numeros ingresado es {numI} ")
+#         break
+#     else:  
+#          print("vuelva a intentar")
+#          numI=numI+asu
