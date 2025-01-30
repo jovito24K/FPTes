@@ -1,0 +1,7 @@
+johao
+('sopa marinera', 9700)
+('arroz marinero', 5200)
+('arroz a la francesa', 4500)
+('sopa marinera', 9700)
+('arroz marinero', 5200)
+[]
